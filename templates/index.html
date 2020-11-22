@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html>
-<body>
+{% extends 'base.html' %}
 
-<h1>Simple Homepage</h1>
+{% block head %}
+<title>GSU Hack-2020</title>
+{% endblock %}
 
-<!-- Login Button with text: ogin as Applicant or recruiter-->
-
-</body>
-</html>
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Welcome to Job-Portal</h1>
+    <div class="wrapper">
+        <form action="/" method="POST">
+            <button class="button">Login in as Applicant or Recruiter</button>
+        </form> 
+    </div>
+</div>
+{% endblock %}
