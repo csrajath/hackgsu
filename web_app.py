@@ -25,10 +25,6 @@ def login():
     # login_user = users.find_one({'name': request.form['username']})
     # if login_user:
 
-@app.route("/upload/")
-def uploadresume():
-    return render_template('student_resume_upload.html')
-
 @app.route("/submit-profile/")
 def userprofile():
     return render_template('student_profile_form.html')

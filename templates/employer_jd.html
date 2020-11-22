@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript">// <![CDATA[
+          function loading(){
+              $("#loading").show();
+              $("#content").hide();       
+          }
+        // ]]></script>
+</head>
+
+
 <body>
-
-<h1>Page where employer can enter jd in text box and submit</h1>
-
+    <img src="/static/combined.png" class="topleft" alt="logosz" style="width:300px;height:100px;">
+    <div class="topright">
+        <form action="/forward/" method="post">
+          <button type="submit" class="btn btn-success topright">Logout</button>
+      </form>
+    </div>
 </body>
 </html>
