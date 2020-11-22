@@ -44,7 +44,6 @@ def upload():
             print('Upload a pdf file only') # TODO: Send this message to UI
     return render_template('student_resume_upload.html')
 
-
 def process_file(path, filename):
     remove_watermark(path, filename)
 

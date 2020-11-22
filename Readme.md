@@ -1,0 +1,1 @@
+Application to eliminate various exisiting bias during job recruiting process.
